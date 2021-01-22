@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <!-- Define a description for the web page -->
+        <meta name="description" content="Survey">
+        <!-- Define keywords for search engine to process -->
+        <meta name="keywords" content="Survey, feedback, notifications">
+        <!-- Define the author of the page -->
+        <meta name="author" content="Diana Modilca">
+        <!-- Setting the viewport to consider the users' visible area of the page. 
+             The initial-scale=1.0 sets the initial zoom level when the page is first loaded by the browser. 
+        -->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Survey - First page</title>
+
+        <link href="bundles/font-awesome/css/all.css" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="resources/main.css">
+        <link href='https://fonts.googleapis.com/css?family=Assistant' rel='stylesheet'>
+    </head>
+    <body>
+        <div class="page-wrapper">
+            <header>
+                <div class="title-wrapper">
+                    <div>Notifications Survey</div>
+                </div>
+            </header>
+            <div class="containing-wrapper">
+            <div class="form-wrapper">
+                <form>
+                    <div class="inside-form-wrapper">
+                        We're working on our notification system to make our product work better.
+                    </div>
+
+                    <div class="inside-form-wrapper">
+                       The survey consists in several questions and usually takes 5-7 minutes to complete.
+                    </div>
+
+                    <div class="inside-form-wrapper">
+                        <div class="email-wrapper">
+                            <label for="emailInput">Enter your email:</label>
+                            <div class="input-wrapper">         
+                                <input required class="input-validation" type="email" name="email_input" id="emailInput" placeholder="Your answer" />
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="inside-form-wrapper">
+                        <div class="text">Are you an admin or a member on our Board?</div>
+                        
+                        <div class="member-wrapper"> 
+                            <div class="choice">  
+                                <input type="radio" id="admin" name="membership" value="admin">
+                                <label for="admin">Admin</label>
+                            </div> 
+                         
+                            <div class="choice"> 
+                                <input type="radio" id="member" name="membership" value="member">
+                                <label for="member">Member</label>
+                            </div> 
+                        </div> 
+                    </div>
+
+                    <div class="inside-form-wrapper">
+                        <div class="text">How do you collaborate in our Board?</div>
+                        <div class="choice">  
+                            <input type="radio" id="create" name="collaboration" value="create">
+                            <label for="create">Create and edit content</label>
+                        </div> 
+                       
+                        <div class="choice"> 
+                            <input type="radio" id="comment" name="collaboration" value="comment">
+                            <label for="comment">Comment and leave comment</label>
+                        </div>
+                        
+                        <div class="choice"> 
+                            <input type="radio" id="review" name="collaboration" value="review">
+                            <label for="review">Just review created comment</label>
+                        </div>
+                      
+                        <div class="choice"> 
+                            <input type="radio" id="other" name="collaboration" value="other">
+                            <label for="other">Other:</label>
+                            <input class="input-validation other-area" type="text" name="other_input" id="otherInput" placeholder="" />
+                        </div>
+                    </div>
+                    
+                    
+                </form>
+                
+            </div>
+            <div class="button-wrapper">
+                <div class="next-wrapper">
+                    <a class="next-link" href="./second-page.html" target="_self">NEXT</a>
+                </div>
+        </div>
+           
+        </div>
+        </div>
+                
+    </body>
+</html>
+
+
+ 
+
+
+
+
