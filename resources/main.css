@@ -37,10 +37,14 @@ header{
   padding: 100px 150px 50px 150px;
 }
 
-.form-wrapper{
-  background-color: #fff;
+form{
   padding: 30px;
   box-sizing: border-box;
+}
+
+.form-wrapper{
+  background-color: #fff;
+  padding: 20px;
 }
 
 .inside-form-wrapper{
@@ -92,12 +96,12 @@ a:link{
 
 .button-wrapper{
   padding-left: 45%;
-  padding-top: 70px;
+  padding-top: 40px;
   background-color: #afafaf;
   text-align: center; 
 }
 
-.next-wrapper, .previous-wrapper, .send-wrapper{
+.next-wrapper{
   background-color: #38daa1;
   border-radius: 20px;
   width: 150px;
@@ -185,11 +189,29 @@ a:link{
 }
 
 .second-page-buttons{
-  padding-left: 150px;
-  padding-right: 150px;
-  padding-bottom: 20px;
-  background-color: #afafaf;
+  padding-top: 40px;
   display: flex;
   justify-content: space-between;
+  
+}
+
+
+.previous-wrapper{
+  background-color: #38daa1;
+  border-radius: 20px;
+  width: 150px;
+  height: 40px;
   text-align: center;
+}
+
+.send-button{
+  background-color: #38daa1;
+  color: #fff;
+  border: none;
+  text-align: center;
+  text-decoration: none;
+  width: 150px;
+  height: 40px;
+  border-radius: 20px;
+  cursor: pointer;
 }
