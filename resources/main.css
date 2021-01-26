@@ -106,6 +106,8 @@ a:link{
   border-radius: 20px;
   width: 150px;
   height: 40px;
+  /* sugestie pentru centrarea text-ul, in momentul de fata la mine nu este si ma indoiesc ca la tine este, nu ave, o regula care sa se ocupe de centrare */
+  line-height: 40px;
 }
 
 /* SECOND PAGE */
@@ -158,6 +160,7 @@ a:link{
   flex-direction: row;
 }
 
+/* in layout aveam aici un border-radius care nu a fost implementat */
 .expectations-wrapper label{
   display: inline-block;
   width: 30px;
